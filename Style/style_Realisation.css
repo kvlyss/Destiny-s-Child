@@ -1,0 +1,71 @@
+/* CSS de la page Realisation */
+
+#ul1 {
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#sec2 {
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    align-items: baseline;
+}
+
+#a1 {
+    display: grid;
+    padding-top: 1%;
+    margin-bottom: 4%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(35, 35, 35);
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: 8px 0px 220px 20px #ffffff;
+    text-align: center;
+
+}
+
+p{
+    forced-color-adjust: gold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#ul1{
+    color: white;
+}
+
+#ul0{
+    color: gold;
+}
+
+.mosaic-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.flex-item {
+    flex: 1 1 200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+
+.flex-item img:hover {
+    transform: scale(1.1);
+}
