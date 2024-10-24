@@ -1,0 +1,24 @@
+/* CSS de la page actualité */
+
+.diapo-div-principal {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.diapo-img {
+    column-count: 4;
+}
+
+.diapo-img img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    margin: 10px 0;
+    flex-shrink: 0;
+}
