@@ -4,33 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style/Style_contact.css">
+    <link rel="stylesheet" href="Style/contact.css">
     <title>CONTACT</title>
 </head>
 
 <body id="body-presentation">
-
     <header>
-        <main id="main-actualite">
         <section class="section-presentation-link">
             <nav class="nav-presentation">
-                <a href="home.html"><i class="fa-solid fa-house"></i></a>
-                <a href="presentation-beyonce.html">Présentation</a>
-                <a href="actualite-beyonce.html">Actualité</a>
-                <a href="RealisationsBeyonce.html">Réalisations</a>
-                <a href="EvenementsBeyonce.html">Événements passés/à venir</a>
-                <a href="diapo-beyonce.html">Photos/vidéos</a>
-                <a href="contact.html">Contact</a>
+                <a href="actualite.html">Actualité</a>
+                <a>Réalisations</a>
+                <a>Événements passés/à venir</a>
+                <a>Photos/vidéos</a>
+                <a>Contact</a>
             </nav>
-            </section>
+        </section>
     </header>
+    <main id="main-presentation">
 
-    <h1 id="h1-presentation">CONTACT</h1>
+        <h1 id="h1-presentation">CONTACT</h1>
 
-    <div id="div0">
-
-        <section class="divi2">
-            <form action="submit_form.php" method="post">
+        <section>
+            <form class="divi2" action="submit_form.php" method="post">
                 <label for="civilite">Civilité :</label>
                 <select id="civilite" name="civilite" required>
                     <option value="">Sélectionnez votre civilité</option>
@@ -46,7 +41,10 @@
                 <input type="text" id="prenom" name="prenom" required>
 
                 <label for="adresse">Adresse postale :</label>
-                <textarea id="adresse" name="adresse" rows="4" required></textarea>
+                <input type="email" id="prenom" name="prenom" required>
+
+                <label for="msg">Écrivez votre message :</label>
+                <textarea name="message" id="msg" cols="30" rows="10"></textarea>
 
                 <label for="politique">
                     <input type="checkbox" id="politique" name="politique" required>
@@ -55,11 +53,9 @@
 
                 <button type="submit">Envoyer</button>
             </form>
-        </div>
-    </section>
+        </section>
 
     </main>
-    </nav>
 </body>
 
 </html>
